@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: bisque;
+  }
+
+  #container {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 20px;
+  }
+
+  #profile {
+    text-align: center;
+  }
+
+  #profile img {
+    width: 200px;
+    height: 200px;
+      border-radius: 100px;
+    }
+
+    .personal{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 30%;
+    }
+
+    .section {
+      margin-top: 20px;
+    }
+
+    .section h3 {
+      margin-bottom: 10px;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+    }
