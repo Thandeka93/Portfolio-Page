@@ -1,12 +1,14 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: bisque;
+    font-size: large;
   }
 
   #container {
     margin: 0 auto;
-    width: 1000px;
-    padding: 20px;
+    width: 900px;
+    padding-right: 10em;
+    margin-left: 5%;
   }
 
   #profile {
@@ -37,3 +39,4 @@ body {
       list-style-type: none;
       padding: 0;
     }
+    
