@@ -1,135 +1,96 @@
-/* body {
-    font-family: 'Arial', sans-serif;
-    background-color: bisque;
-    font-size: large;
-  }
+body {
+  font-family: Arial, sans-serif;
+  /* margin-left: 2em; */
+  background-color: #ddd;
+}
 
-  #container {
-    margin: 0 auto;
-    width: 900px;
-    padding-right: 10em;
-    margin-left: 5%;
-  }
+header {
+  background-color: #7c7979;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 2em;
+}
 
-  #profile {
-    text-align: center;
-  }
+.pic {
+  /* margin-right: 2em; */
+  margin-top: 1em;
+  border-radius: 10%;
+  margin-left: 2em;
+  background-color: #f4f4f4;
+}
 
-  #profile img {
-    width: 200px;
-    height: 200px;
-      border-radius: 100px;
-    }
+.name {
+  /* float: right; */
+  /* margin-right: 28em; */
+  margin-top: 1em;
+  margin-left: 2em;
+}
 
-    .personal{
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 30%;
-    }
+.para1 {
+  width: 100%;
 
-    .section {
-      margin-top: 20px;
-    }
+}
 
-    .section h3 {
-      margin-bottom: 10px;
-    }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-    .section ul {
-      list-style-type: none;
-      padding: 0;
-    } */
-    
-    body {
-      font-family: Arial, sans-serif;
-      /* margin-left: 2em; */
-      background-color: #ddd ;
-    }
-    
-    header {
-      background-color: #7c7979;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem;
-      margin-left: 2em;
-    }
-    .pic{
-      /* margin-right: 2em; */
-      margin-top: 1em;
-      border-radius: 10%;
-      margin-left: 2em;
-      background-color: #f4f4f4;
-    }
-    .name{
-      /* float: right; */
-      /* margin-right: 28em; */
-      margin-top: 1em;
-      margin-left: 2em;
-    }
+nav li {
+  margin: 0 1rem;
+}
 
-    .para1{
-      width: 100%;
-      
-    }
-    
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-    
-    nav li {
-      margin: 0 1rem;
-    }
-    
-    nav a {
-      color: white;
-      text-decoration: none;
-    }
-    
-    section {
-      padding: 2rem;
-      background-color: #f4f4f4; 
-    }
-    
-    /* #about {
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+/* #about {
       background-color: #eee;
     } */
-    
-    #projects {
-      background-color: #f4f4f4;
-      margin-top: 1em;
-    } 
 
-    .resume{
-      /* background-color: #ddd; */
-      margin-left: 2em;
-      margin-bottom: 1em;
-    }
-    
-    .project {
-      display: inline-block;
-      /* margin: 1rem; */
-      width: 30%;
-      vertical-align: top;
-  
-    }
-  
-    .contact{
-      margin-left: 2em;
-      display: flex;
-      vertical-align: top;
-    
-    }
-    .git{
-      margin-left: 2em;
-    }
-    
-    
-    label {
-      display: block;
-      margin-bottom: 0.5rem;
-    }
+#projects {
+  background-color: #f4f4f4;
+  margin-top: 1em;
+}
+
+.resume {
+  /* background-color: #ddd; */
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.project {
+  display: inline-block;
+  /* margin: 1rem; */
+  width: 30%;
+  vertical-align: top;
+
+}
+
+.contact {
+  margin-left: 2em;
+  display: flex;
+  vertical-align: top;
+
+}
+
+.git {
+  margin-left: 2em;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
